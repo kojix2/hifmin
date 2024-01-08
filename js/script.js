@@ -1,4 +1,5 @@
-document.getElementById("reverseButton").addEventListener("click", function () {
-  var inputText = document.getElementById("inputText").value;
-  document.getElementById("outputText").value = inputText;
+document.getElementById('inputText').addEventListener('input', function() {
+    var inputText = this.value;
+    document.getElementById('outputText').value = inputText;
 });
+

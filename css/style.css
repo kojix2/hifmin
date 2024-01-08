@@ -16,3 +16,11 @@ textarea {
   transform: rotate(180deg);
   user-select: none;
 }
+
+footer {
+    text-align: center;
+    color: #808080; /* 薄い灰色 */
+    font-size: 12px; /* 小さな文字サイズ */
+    padding: 10px 0;
+    margin-top: 20px;
+}
