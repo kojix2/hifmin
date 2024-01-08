@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+    resize: none;
+    overflow: auto;
+}
+
+#outputText {
+    transform: rotate(180deg);
+    user-select: none;
+}
+
